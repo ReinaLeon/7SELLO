@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Septimo sello</title>
+    <link rel="stylesheet" href="descargaBootsrap/css/bootstrap.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+      <link
+      rel="icon"
+      href="../imagenes/icon.png"
+    />
+    />
+    <link rel="icon" href="Imagenes/icon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="imagenes/LOGO.png" alt="" width="250px" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-justify"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"
+              /></svg
+          ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#peliculas">Peliculas</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#contactenos"> Contactenos</a>
+            </li>
+          </ul>
+
+          <form>
+            <div class="login d-flex flex-row justify-content-center mt-3">
+              <div id="login1" class="nav-link">
+                <img
+                  onmouseover="show()"
+                  onmouseout="show()"
+                  width="35px"
+                  src="imagenes/icon1.png"
+                  alt="icon1"
+                />
+                <p id="textLogin">Login</p>
+              </div>
+
+              <div id="login2" class="login2 nav-link">
+                <img
+                  onmouseover="show2()"
+                  onmouseout="show2()"
+                  width="35px"
+                  src="Imagenes/icon2.png"
+                  alt="icon1"
+                />
+                <p id="textLogout">logout</p>
+              </div>
+              <p id="loginUser" class="nav-user nav-link"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!--Carousel-->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="imagenes/carousel/lachicadanesaimg.jpeg"
+            class="d-block w-100"
+            alt="lachicadanesaimg"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="titulopeli">La chica Danesa</h1>
+            <p>
+              Einar y Gerda Wegener son un matrimonio de pintores. Un día, Gerda
+              le pide a su marido que pose para su próxima obra vestido de
+              mujer.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="imagenes/carousel/elabuelosinverguenzaimg.jpg"
+            class="d-block w-100"
+            alt="elabuelosinverguenzaimg"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="titulopeli">El abuelo sinvergüenza</h1>
+            <p>
+              Irving Zisman emprende un viaje junto a su joven e impresionable
+              nieto. Juntos, descubren a bailarines exóticos y otros singulares
+              personajes.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="imagenes/carousel/fragmentadoimg.jpg"
+            class="d-block w-100"
+            alt="fragmentadoimg"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="titulopeli">Fragmentado</h1>
+            <p>
+              A pesar de que Kevin le ha demostrado a su psiquiatra de confianza
+              que posee 23 personalidades diferentes, aún queda una misteriosa
+              por emerger decidida a dominar a todas las demás.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="imagenes/carousel/norespiresimg.jpg"
+            class="d-block w-100"
+            alt="norespiresimg"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="titulopeli">No respires</h1>
+            <p>
+              Rocky, Alex y Money ya han robado casas en otras ocasiones. Ahora
+              preparan un nuevo golpe, el que permitirá a Rocky salir de Detroit
+              y salvar a su hermana pequeña del maltrato de su madre y de una
+              vida sin futuro.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="imagenes/carousel/infinitywarsimg.jpg"
+            class="d-block w-100"
+            alt="infinitywarsimg"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="titulopeli">
+              Capitán América y el Soldado del Invierno
+            </h1>
+            <p>
+              Tras los devastadores acontecimientos vividos en Nueva York, el
+              superhéroe vive tranquilamente en Washington D.C., intentando
+              adaptarse al mundo moderno.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container">
+      <section id="peliculas" class="seccion1">
+        <h1 class="titulogenero">¿Qué Género Quieres Ver?</h1>
+        <div class="gallery-container">
+          <div class="gallery-item p-accion">
+            <span><a href="./accion/accion.html">ACCION</a></span>
+          </div>
+
+          <div class="gallery-item p-suspenso">
+            <span><a href="./suspenso/suspenso.html">SUSPENSO</a></span>
+          </div>
+
+          <div class="gallery-item p-comedia">
+            <span><a href="./comedia/comedia.html">COMEDIA</a></span>
+          </div>
+
+          <div class="gallery-item p-terror">
+            <span onclick="checkAge()">
+              <a href="/Terror/terror.html"> TERROR</a></span
+            >
+          </div>
+          <div class="gallery-item p-drama">
+            <span>
+              <a href="./drama/drama.html"> DRAMA</a>
+            </span>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer id="contactenos" class="footer mt-auto py-3">
+      <div class="container-fluid">
+        <span class="text-muted"></span>
+        <div class="container-fluid">
+          <div class="container-fluid">
+            <img
+              class="imgfooter"
+              src="./imagenes/LOGO.png"
+              alt="imagen logo"
+              width="200px"
+            />
+
+            <div>
+              <h2>
+                Esta pagina fue realizada por el equipo Septimo Sello Todos los
+                derechos reservados
+              </h2>
+            </div>
+
+            <div class="contactenos">
+              <ul>
+                <li>Angel Gomez #contacto Estudiante BIT</li>
+
+                <li>Katerin Montaño #contacto Estudiante BIT</li>
+
+                <li>Deiber Carrascal #contacto Estudiante BIT</li>
+                <li>Genesis Rojas #contacto Estudiante BIT</li>
+                <li>Reina #contacto Estudiante BIT</li>
+                <li>Sara Morales #contacto Estudiante BIT</li>
+                <li>Sebastian Ruiz #contacto Estudiante BIT</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/JS/JavaS.js"></script>
+    <script src="descargaBootsrap/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

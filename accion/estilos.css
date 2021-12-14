@@ -1,0 +1,34 @@
+body{
+    width: auto;
+    background-color: black;
+}
+.media-object-video {
+  width: 80%;
+  height: 200px;
+}
+
+section.container ul {
+  list-style: none;
+  text-align: center;
+}
+
+section.container div.col-12 {
+  background-image: url(./img/fondotitulo.jpg);
+}
+
+section.container {
+
+    background-color: rgba(219, 245, 255, 0.699);
+}
+
+.container-footer{
+    display: flex;
+    justify-content: center;
+}
+div.col-3{
+    margin-top: 20px;
+    margin-left: 400px;
+}
+.imagenfooter{
+    width: 70%;
+}

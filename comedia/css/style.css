@@ -1,0 +1,178 @@
+*{
+margin: 0;
+padding: 0;
+
+
+}
+
+
+body{
+
+    background-image: url(../contenido/logoplanets.gif);
+     margin: 0px  200px  0px  200px;
+   
+   
+}
+
+
+.logocontenido{ 
+    height: 300px;
+    margin-left: 250px;
+    width: 350px;
+    top: 300px;
+
+}
+::content{
+    width: auto;
+}
+nav{ 
+
+background-color:rgb(247, 241, 241);
+padding: 20px 0px 20px 0px;
+text-align: center;
+border: 3px solid teal
+
+}
+
+
+.barradenavegacion{
+    display: inline-flex;
+    background-color:rgba(220, 111, 78, 0.234);
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.navegacion{
+    padding: 8px 70px 8px 70px;
+}
+
+.navegacion:hover {
+    background-color: rgba(7, 14, 14, 0.453);
+    
+    
+}
+
+.navegacion a{
+text-decoration: none;
+color: rgb(13, 13, 14);
+font-size: 20px;
+font-family: monospace;
+}
+ .inicio{
+color: rgba(207, 24, 24, 0.501);
+text-align: center;
+font-size: 100px;
+font-family: fantasy;
+
+
+
+ }
+
+ .titulo1{
+color:teal;
+text-align: center;
+font-size: 80px;
+font-family: fantasy;
+text-decoration:line-through
+rgb(0, 0, 0);
+}
+
+.parrafo{
+    color: rgb(4, 25, 70);
+    font-family: monospace; 
+    font-size: 20px; 
+    font-weight: 99px;
+
+    background-color:rgba(235, 194, 181, 0.713);
+
+    }
+
+.parrafo2{
+color: rgb(4, 25, 70);
+font-family: monospace; 
+font-size: 20px; 
+font-weight: 110px;
+background-color:rgba(235, 194, 181, 0.713);
+
+}
+.subtitulos{
+color: teal;
+font-family: fantasy;
+font-size: 40px;
+background-color:rgba(10, 10, 10, 0.378);
+text-decoration:underline
+rgb(228, 223, 223);
+
+}
+
+.imagen{
+  
+    padding: 0;
+    display: inline-flex;
+    width: 550px;
+    height: 700px;
+    margin-left: 150px;
+    top: 300px;
+
+}
+
+.clips{
+    padding: 0;
+    display: inline-flex;
+    margin-left: 140px;
+    
+   
+}
+
+.sello{
+width: 250pxpx;
+height: 100px;
+font-weight: 500px;
+font-size: 60px;
+color: rgb(194, 4, 4);
+background-color: rgba(0, 0, 0, 0.659);
+text-decoration:line-through
+rgb(212, 10, 10);
+margin-left: 110px;
+margin-bottom: -295px;
+font-family:monospace;
+
+
+
+
+
+}
+.burro{
+    width: 300px;
+    height: 300px;
+    margin-left: 420px;
+}
+
+
+.danza{
+    padding: 0;
+    display: inline-flex;
+    width: 340px;
+    height: 300px;
+    margin-left: 300px;
+
+}
+
+.noel{
+    padding: 0;
+    display: inline-flex;
+    width: 400px;
+    height: 400px;
+    margin-left:250px;
+
+}
+
+.final{
+color: rgb(232, 236, 243);
+background-color: rgba(7, 6, 6, 0.583);
+text-align: center;
+padding: 10px;
+margin: 20px;
+
+}

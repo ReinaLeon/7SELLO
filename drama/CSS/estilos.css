@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color: rgb(24, 24, 24);
+}
+header {
+    width: 100%;
+    height: 85px;
+    background-color: black;
+    position: fixed;
+    font-size: 35px;
+    font-family: serif;
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    width: auto;
+    padding: 20px 15px;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+.menu li a {
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 10px;
+}
+.menu ul li a:hover {
+    color: salmon;
+}
+main {
+    position: relative;
+    top: 80px;
+}
+.galeria-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90vh;
+}
+div.galeria-container div.galeria-item {
+    flex: 1;
+    height: 100%;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: flex 0.5s ease-in-out;
+}
+div.galeria-item span {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 8px;
+    background-color:salmon;
+    opacity: 0.8;
+    transition: opacity 0.8s ease;
+    border-radius: 5px;
+}
+div.galeria-container div.galeria-item:hover span {
+    opacity: 0;
+}
+.galeria-container .galeria-item:hover {
+    flex: 2;
+}
+.galeria-container .galeria-item.g-item-1 {
+    background-image: url(../Imagenes/Enola\ Holmes.jpg);
+  }
+.galeria-container .galeria-item.g-item-2 {
+    background-image: url(..//Imagenes/nace\ una\ estrella.jpg);
+}
+.galeria-container .galeria-item.g-item-3 {
+    background-image: url(..//Imagenes/la\ chica\ danesa.jpg);
+}
+.galeria-container .galeria-item.g-item-4 {
+    background-image: url(..//Imagenes/Parasitos.jpg);
+}
+.videos {
+    letter-spacing: 20px;
+    line-height: 20px;
+  }
+  .videos h2 {
+    margin: 150px 0px;
+    font-size: 2cm;
+    color: salmon;
+    font-weight: 700;
+    text-align: center;
+  }
+  .videos{
+    margin: 50px 0px 0px 0px;
+  }
+  .iframes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+.final{
+    margin-top: 100px;
+    background-color: black;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .final p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2cm;
+    color: salmon;
+  }

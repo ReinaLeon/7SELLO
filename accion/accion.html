@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Septimo Sello - Accion</title>
+    <link rel="icon" href="../imagenes/icon.png"/>
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <!-- Menu de navegacion -->
+    <div class="container-fluid">
+      <nav
+        class="
+          navbar navbar-expand-md navbar-light h2
+          bg-light
+          border-3 border-bottom border-dark
+        "
+      >
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand"> SEPTIMO SELLO</a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#MenuNavegacion"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="MenuNavegacion" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-3">
+              <li class="nav-item">
+                <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+                <a class="nav-link" href="#trailers">Trailers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Carousel -->
+    <section class="carousel">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carousel01.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+             
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel02.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+             
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel03.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+             
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Trailers -->
+    <section class="container mt-5">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h3 class="text-warning text.uppercase h2">Accion</h3>
+          <h2 id="trailers" class="text-light h1">Trailers</h2>
+        </div>
+        <!-- media-objects1 -->
+        <ul class="col-6 mt-5">
+          <li class="media">
+            <iframe
+              class="media-object-video"
+              src="https://www.youtube.com/embed/Ics4g1xppFg"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="media-body">
+              <h5 class="h2 text-danger">
+                Capitan America: El Soldado Del Invierno
+              </h5>
+              <p class="h4">
+                Tras los devastadores acontecimientos vividos en Nueva York, el
+                superhéroe vive tranquilamente en Washington D.C., intentando
+                adaptarse al mundo moderno. Sin embargo, cuando un colega de es
+                amenazado, Rogers se ve envuelto en una trama de intrigas.
+              </p>
+            </div>
+          </li>
+          <li class="media mt-5">
+            <iframe
+              class="media-object-video"
+              src="https://www.youtube.com/embed/6ZfuNTqbHE8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="media-body">
+              <h5 class="h2 text-danger">Avengers: Infinity Wars</h5>
+              <p class="h4">
+                Los superhéroes se alían para vencer al poderoso Thanos, el peor
+                enemigo al que se han enfrentado. Si Thanos logra reunir las
+                seis gemas del infinito: poder, tiempo, alma, realidad, mente y
+                espacio, nadie podrá detenerlo.
+              </p>
+            </div>
+          </li>
+        </ul>
+        <!-- media-objects2 -->
+        <ul class="col-6 mt-5">
+          <li class="media">
+            <iframe
+              class="media-object-video"
+              src="https://www.youtube.com/embed/9hpWz0ZMFAo"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="media-body">
+              <h5 class="h2 text-danger">Avengers: End Game</h5>
+              <p class="h4">
+                Después de los eventos devastadores de "Avengers: Infinity War",
+                el universo está en ruinas debido a las acciones de Thanos, el
+                Titán Loco. Con la ayuda de los aliados que quedaron, los
+                Vengadores deberán reunirse una vez más para intentar detenerlo
+                y restaurar el orden en el universo de una vez por todas.
+              </p>
+            </div>
+          </li>
+          <li class="media mt-5">
+            <iframe
+              class="media-object-video"
+              src="https://www.youtube.com/embed/HlB_8y3cmUg"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="media-body">
+              <h5 class="h2 text-danger">Black Widow</h5>
+              <p class="h4">
+                Una peligrosa conspiración, relacionada con su pasado, persigue
+                a Natasha Romanoff, también conocida como Viuda Negra. La agente
+                tendrá que lidiar con las consecuencias de haber sido espía, así
+                como con las relaciones rotas, para sobrevivir.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="contacto" class="bg-dark text-white mt-5">
+        <div class="container">
+            <nav class="row mt-5">
+                <!-- Logo -->
+                <!-- Redes Sociales -->
+                <div class="col-3 list-unstyled text-center">
+                    <img src="img/fondofooter.jpg" alt="#" class="imagenfooter">
+                    <span class="text-reset">@SeptimoSOficial-</span>
+                    <span>-Tel:3227646743</span>
+
+                </div>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
